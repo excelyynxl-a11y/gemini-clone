@@ -26,9 +26,14 @@
     cursor: pointer;
 }
 
+.sidebar .new-chat:hover {
+    background-color: #d2d6db;
+}
+
 .sidebar .recent {
     display: flex;
     flex-direction: column;
+    animation: fadeIn 1.5s;
 }
 
 .sidebar .recent-title {
@@ -56,9 +61,13 @@
     flex-direction: column;
 }
 
-.sidebar bottom-item {
+.sidebar .bottom-item {
     padding-right: 10px;
     cursor: pointer;
 }
 
-
+@media (max-width: 600px){
+    .sidebar{
+        display: none;
+    }
+}
