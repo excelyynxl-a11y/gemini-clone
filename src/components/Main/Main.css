@@ -48,7 +48,7 @@
 }
 
 .main .card {
-    height: 200px; /* or 200px */
+    height: 200px;
     padding: 15px;
     background-color: #f0f4f9;
     border-radius: 10px;
@@ -77,7 +77,8 @@
 }
 
 .main-bottom {
-    position: absolute; /* absolute or fixed ? */
+    background: white; /* added myself */
+    position: fixed; /* absolute or fixed ? i like it fixed */
     bottom: 0;
     width:100%;
     max-width: 900px;
@@ -86,6 +87,7 @@
 }
 
 .search-box {
+    margin-top: 15px; /* added myself */
     display: flex;
     align-items: center;
     justify-content: space-between;
