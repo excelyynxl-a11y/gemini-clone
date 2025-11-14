@@ -1,16 +1,43 @@
-# React + Vite
+# ✨⚛️ Gemini Clone App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight Gemini-style AI chat interface built using **React**, **Lucide React** and  **Google Gemini API**.  
+This project recreates a modern conversational UI with prompt input, AI responses, and polished UI components.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- AI Chat Powered by Gemini API. User prompts to the Gemini 2.5 Flash model.
+- Displays real-time responses inside a chat-style layout  and supports markdown output from Gemini
+- Clean, Modern UI, inspired by Google Gemini’s design  
+- Responsive for desktop and mobile  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
+## ⚙️ Includes:
+  - Search input bar
+  - Recent search logs
+  - Suggestion cards
+  - Gradient greeting text
+  - Bottom-fixed input prompt
+  - Lucide icons (Mic, Send, Image, User)
 
-## Expanding the ESLint configuration
+### Component-Based Structure
+- Organized React components  
+- Reusable UI patterns  
+- Dedicated config folder for API logic
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Layer     | Technology                     |
+|-----------|--------------------------------|
+| Frontend  | React           |
+| Icons     | Lucide React                   |
+| Styling   | CSS (custom)                   |
+| AI Model  | GoogleGenAI (Gemini 2.5 Flash)|
+| API Handling | Custom config with environment variables |
+
+---
+
+

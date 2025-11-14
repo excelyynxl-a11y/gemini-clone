@@ -1,6 +1,5 @@
 // npm install @google/genai
 
-
 import { GoogleGenAI } from '@google/genai';
 
 const ai = new GoogleGenAI({apiKey: "AIzaSyAfqww5fniiupcQwR2j86zCIPuLi9qhLt0"});
